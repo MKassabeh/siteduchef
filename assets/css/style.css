@@ -1,3 +1,7 @@
+.section3 {
+  background-color: black;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10561,7 +10565,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.body {
+body {
   background-image: url(../images/main_bg.jpg);
 }
 
@@ -10623,13 +10627,23 @@ a.text-dark:hover, a.text-dark:focus {
   width: 50%;
 }
 
+.navss {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+}
+
+.head {
+  position: relative;
+}
+
 #content {
   position: relative;
 }
 
 .ribbon {
   position: absolute;
-  top: 50px;
+  top: 0;
   right: 0;
 }
 
@@ -10639,17 +10653,22 @@ a.text-dark:hover, a.text-dark:focus {
 
 .topleft {
   position: absolute;
-  top: 50px;
-  left: 16px;
+  top: 0;
+  left: 0;
   font-size: 18px;
 }
 
 .section2 {
-  height: 100vh;
+  height: 200vh;
+  margin-top: 30px;
+  background-color: white;
+  width: 80%;
 }
 
 .titremenu {
-  padding-top: 130px;
+  padding-top: 70px;
+  font-family: serif;
+  font-style: italic;
 }
 
 .our {
@@ -10665,9 +10684,61 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .imgmenu {
-  height: 100px;
+  height: 90px;
   border-radius: 50%;
-  width: 100px;
+  width: 90px;
   margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.imgmenu2 {
+  height: 90px;
+  border-radius: 50%;
+  width: 90px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.break {
+  font-size: 30px;
+}
+
+.textmenu {
+  font-weight: bold;
+}
+
+.text {
+  width: 210px;
+  font-size: 14px;
+}
+
+.lignetab {
+  border-bottom: 1px grey dotted;
+}
+
+.list1 {
+  border-right: 1px solid grey;
+}
+
+.lastlist {
+  height: 130px;
+}
+
+.list2 > i:hover {
+  color: red;
+}
+
+.botright {
+  bottom: 0;
+  right: 0px;
+  position: absolute;
+}
+
+.botleft {
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
