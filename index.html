@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
 <body>
       <header class="head">
         <div class="navss">
+           
           <nav class="navbar navbar-expand-md justify-content-center">
+            
+ 
               <ul class="navbar-nav">
                 <li class="nav-item bg-danger disabled">
                   <a class="nav-link" href="#">Home</a>
@@ -52,9 +56,13 @@
             <div class="carousel-inner">
               <div class="item active">
                 <img src="./assets/images/banner1.jpg" class="slide w-100" alt="...">
-                <div class="carousel-caption">
-                  <p class="carouseltext">Whatever your OCCASION, taste makes its one to remember</p>
+                <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+                  <p class="carouseltext ">Whatever your OCCASION, taste makes its one to remember</p>
+                  <div class="d-flex">
+                  <button type="button" class="bouton btn btn-white bg-white text-dark btn-sm ">Purchase theme</button>
+                  <button type="button" class="bouton ml-3 btn btn-danger bg-danger text-white btn-sm ">Learn more</button>
                 </div>
+              </div>
             </div>
             <div class="carousel-item">
                 <img src="./assets/images/menu_image_2.jpg" class="slide d-block w-100" alt="...">
@@ -103,7 +111,7 @@
             <img src="./assets/images/decoration_line.png" alt="">
           </div>
           <div class="row mt-5">
-            <div class="col-sm-">
+            <div class="col-md-2">
                 <ul class="list1 list-group mt-2 list-group-flush text-center">
                     <li class="list2 list-group-item"><i class=" ml-3 mb-3 fas fa-mug-hot fa-3x text-danger"></i>
                     <h5>Breakfast</h5>
@@ -126,7 +134,7 @@
                     <li class="list-group-item lastlist"></li>
                   </ul>
             </div>
-            <div class="col-sm-5 ">
+            <div class=" col-12 col-md-5">
 
             
               <table>
@@ -158,7 +166,7 @@
              </table>
 
                 </div>
-                <div class="col-sm-5">
+                <div class=" col-12 col-md-5">
                   <table class="mb-5">
                     <tr>
                         <td class="lignetab"><img class="imgmenu2 " src="./assets/images/menu_image_1.jpg" alt=""></td>
@@ -200,22 +208,81 @@
           </section>
           <section class="section3 mt-5">
             <div class="container">
-            <h1 class="text-white text-center pt-5">Meet our Chef</h1>
+            <h1 class="textmeet text-white text-center pt-5 pb-5">Meet our Chef</h1>
             <div class="row">
-              <div class="col-3">
-            <img class="chef" src="/assets/images/chef1.png" alt="">
+              <div class="col-md-3 col-12">
+            <img class="chef" src="./assets/images/chef1.png" alt="">
+            <p class="text-center text-white">Lorem ipsum</p>
           </div>
-          <div class="col-3">
-              <img class="chef" src="/assets/images/chef2.png" alt="">
+          <div class="col-md-3 col-12">
+              <img class="chef" src="./assets/images/chef2.png" alt="">
+              <p class="text-center text-white">Lorem ipsum</p>
             </div>
-            <div class="col-3">
-                <img class="chef" src="/assets/images/chef3.png" alt="">
+            <div class="col-md-3 col-12">
+                <img class="chef" src="./assets/images/chef3.png" alt="">
+                <p class="text-center text-white">Lorem ipsum</p>
               </div>
-              <div class="col-3">
-                  <img class="chef" src="/assets/images/chef4.png" alt="">
+              <div class="col-md-3 col-12">
+                  <img class="chef" src="./assets/images/chef4.png" alt="">
+                  <p class="text-center text-white">Lorem ipsum</p>
                 </div>
               </div>
             </div> 
+        </section>
+        <section class="section4 container">
+          <img class="topleft" src="./assets/images/box-left-top-grey.png" alt="">
+          <img class="ribbon" src="./assets/images/box-right-top-grey.png" alt="">
+          <div class="d-flex flex-column align-items-center">
+          <h1 class=" titlereservation">Book your table</h1>
+          <img src="./assets/images/decoration_line.png" alt="">
+        </div>
+        <div class="container d-flex justify-content-center imageform">
+        <div class="bg-img text-center">
+            <form action="/action_page.php" class="container containers">
+              <h5 class="text-white">For any query please call us at :+91.1234567890</h5>
+              <div class="container">
+          <div class="formulaire row justify-content-center text-center">
+            <div class=" col-5">
+              
+              <input type="text" placeholder="Enter full name" name="email" required>
+              <input type="password" class="formul" placeholder="Phone number" name="psw" required>
+              <input type="text" class="formul" placeholder="Date" name="email" required>
+              <input type="password" class="formul" placeholder="Occasion" name="psw" required>
+            </div>
+            
+            <div class=" col-5">
+                <input type="text" placeholder="Enter Id" name="email" required>
+                <input type="password" class="formul" placeholder="No of Person" name="psw" required>
+                <input type="text" class="formul" placeholder="Time" name="email" required>
+                <input type="password" class="formul" placeholder="Cuisine" name="psw" required>
+              </div>
+              </div>
+              </div>
+          
+              <button type="submit" class="btn btns bg-danger">Book now</button>
+            </form>
+          </div>
+          </div>
+        </div>
+        <div class="text-center pt-5">
+          <h1>
+            OUR blog
+          </h1>
+          <img src="./assets/images/decoration_line.png" alt="">
+        </div>
+        <div class="row d-flex imgblog">
+            <div class="col-md-6 d-flex justify-content-end">
+            <img class="imgblog1" src="./assets/images/blog_img1.jpg" alt="">
+            <p class="blogdescri bg-danger text-white">24 April 2017/20 Comment/20 likes</p>
+          </div>
+          
+        
+            <div class="col-md-6 d-flex justify-content-start">
+            <img class="imgblog2" src="/assets/images/blog_img2.jpg" alt=""> 
+            <p class="blogdescri2 bg-danger text-white">24 April 2017/20 Comment/20 likes</p>      
+</div>
+
+        </div>
         </section>
 
 

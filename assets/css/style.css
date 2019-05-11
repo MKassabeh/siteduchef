@@ -1,5 +1,10 @@
 .section3 {
   background-color: black;
+  padding-bottom: 100px;
+}
+
+.chef {
+  border-bottom: 2px grey solid;
 }
 
 /*!
@@ -10611,7 +10616,7 @@ body {
   Position: relative;
 }
 
-.item:after {
+.item::after {
   content: "";
   display: block;
   position: absolute;
@@ -10625,6 +10630,7 @@ body {
 .carouseltext {
   font-size: 35px;
   width: 50%;
+  font-family: 'Courgette', cursive;
 }
 
 .navss {
@@ -10667,8 +10673,7 @@ body {
 
 .titremenu {
   padding-top: 70px;
-  font-family: serif;
-  font-style: italic;
+  font-family: 'Courgette', cursive;
 }
 
 .our {
@@ -10681,6 +10686,7 @@ body {
 
 .titre2 {
   padding-top: 80px;
+  font-family: 'Courgette', cursive;
 }
 
 .imgmenu {
@@ -10714,6 +10720,10 @@ body {
   font-size: 14px;
 }
 
+.textmeet {
+  font-family: 'Courgette', cursive;
+}
+
 .lignetab {
   border-bottom: 1px grey dotted;
 }
@@ -10730,6 +10740,14 @@ body {
   color: red;
 }
 
+div > ul > .list-group-item:first-of-type {
+  border-right: red 2px solid;
+}
+
+.list-group-item:hover {
+  border-right: red 2px solid;
+}
+
 .botright {
   bottom: 0;
   right: 0px;
@@ -10740,5 +10758,148 @@ body {
   bottom: 0;
   left: 0;
   position: absolute;
+}
+
+.section3 {
+  background-color: black;
+  padding-bottom: 70px;
+}
+
+.chef {
+  border-bottom: 1 px grey;
+}
+
+.section4 {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.titlereservation {
+  padding-top: 75px;
+}
+
+.imagetable {
+  margin-top: 80px;
+  border-radius: 5%;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../images/book_table_bg.jpg");
+  /* Control the height of the image */
+  height: 500px;
+  width: 80%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 5%;
+}
+
+/* Add styles to the form container */
+.containers {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: auto;
+  padding: 16px;
+  background-color: transparent;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  border-radius: 20%;
+  padding: 15px;
+  height: 15%;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.imageform {
+  margin-top: 50px;
+}
+
+.titlereservation {
+  font-family: 'Courgette', cursive;
+}
+
+input {
+  width: 50%;
+}
+
+b {
+  color: white;
+}
+
+.btns {
+  width: auto;
+  height: 50px;
+  border-radius: 10%;
+}
+
+.formulaire {
+  margin-top: 50px;
+}
+
+.imgblog {
+  height: 60vh;
+  padding-top: 50px;
+}
+
+.imgblog1 {
+  height: 70%;
+  width: 70%;
+  border-radius: 5%;
+  border: #d2d2d2 3px solid;
+  position: relative;
+}
+
+.imgblog2 {
+  width: 70%;
+  height: 70%;
+  border: #d2d2d2 3px solid;
+  border-radius: 5%;
+}
+
+.blogdescri {
+  position: absolute;
+  z-index: 999;
+  margin-top: 34%;
+  padding: 15px 15px;
+  border-radius: 10%;
+}
+
+.blogdescri2 {
+  position: absolute;
+  z-index: 999;
+  margin-top: 34%;
+  padding: 15px 15px;
+  border-radius: 10%;
 }
 /*# sourceMappingURL=style.css.map */
