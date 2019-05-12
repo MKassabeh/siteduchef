@@ -1,12 +1,3 @@
-.section3 {
-  background-color: black;
-  padding-bottom: 100px;
-}
-
-.chef {
-  border-bottom: 2px grey solid;
-}
-
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10596,7 +10587,7 @@ body {
   border-top: 2px white solid;
   border-bottom: 2px white solid;
   color: white;
-  padding: 4px 15px;
+  padding: 0 10px;
 }
 
 .navbar-nav > li > a {
@@ -10605,6 +10596,10 @@ body {
 
 .navbar-nav > li > a:hover {
   background-color: red;
+}
+
+.bold {
+  font-size: larger;
 }
 
 .logo {
@@ -10628,8 +10623,8 @@ body {
 }
 
 .carouseltext {
-  font-size: 35px;
-  width: 50%;
+  font-size: 37px;
+  width: 54%;
   font-family: 'Courgette', cursive;
 }
 
@@ -10665,10 +10660,10 @@ body {
 }
 
 .section2 {
-  height: 200vh;
   margin-top: 30px;
   background-color: white;
   width: 80%;
+  padding-bottom: 150px;
 }
 
 .titremenu {
@@ -10690,7 +10685,7 @@ body {
 }
 
 .imgmenu {
-  height: 90px;
+  height: 50%;
   border-radius: 50%;
   width: 90px;
   margin-bottom: 10px;
@@ -10699,7 +10694,7 @@ body {
 }
 
 .imgmenu2 {
-  height: 90px;
+  height: 50%;
   border-radius: 50%;
   width: 90px;
   margin-bottom: 10px;
@@ -10863,6 +10858,15 @@ b {
   border-radius: 10%;
 }
 
+.bouton {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .formulaire {
   margin-top: 50px;
 }
@@ -10891,15 +10895,88 @@ b {
   position: absolute;
   z-index: 999;
   margin-top: 34%;
-  padding: 15px 15px;
+  padding: 15px 50px;
   border-radius: 10%;
+  font-size: small;
 }
 
 .blogdescri2 {
   position: absolute;
   z-index: 999;
   margin-top: 34%;
-  padding: 15px 15px;
+  margin-left: 7%;
+  padding: 15px 50px;
   border-radius: 10%;
+  font-size: small;
+}
+
+#blog {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.section5 {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-image: url(../images/testimonials_background.jpg);
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.contactme {
+  width: 40%;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.footer {
+  background-color: black;
+  height: 100vh;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.nav-link {
+  margin: 0 auto;
+}
+
+.lien:hover {
+  color: rosybrown !important;
+}
+
+.footerbas {
+  padding: 30px 0;
+  margin-top: 30px;
+}
+
+.contact {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.imgtest {
+  border-radius: 50%;
+  border: grey 4px solid;
+}
+
+.blocktest {
+  border: grey 1px solid;
+  border-radius: 5%;
+  font-size: small;
+}
+
+.footerfin {
+  background-image: url(../images/footer_background.jpg);
+  padding-top: 23px;
+}
+
+.tags {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border: white 2px solid;
 }
 /*# sourceMappingURL=style.css.map */
