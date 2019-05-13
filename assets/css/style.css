@@ -10662,17 +10662,13 @@ body {
 .section2 {
   margin-top: 30px;
   background-color: white;
-  width: 80%;
+  width: 100%;
   padding-bottom: 150px;
 }
 
 .titremenu {
   padding-top: 70px;
   font-family: 'Courgette', cursive;
-}
-
-.our {
-  text-transform: uppercase;
 }
 
 .texte1 {
@@ -10778,7 +10774,7 @@ div > ul > .list-group-item:first-of-type {
 
 .imagetable {
   margin-top: 80px;
-  border-radius: 5%;
+  border-radius: 20px;
 }
 
 .bg-img {
@@ -10792,7 +10788,7 @@ div > ul > .list-group-item:first-of-type {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border-radius: 5%;
+  border-radius: 20px;
 }
 
 /* Add styles to the form container */
@@ -10808,7 +10804,7 @@ div > ul > .list-group-item:first-of-type {
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 90%;
-  border-radius: 20%;
+  border-radius: 20px;
   padding: 15px;
   height: 15%;
   margin: 5px 0 22px 0;
@@ -10855,7 +10851,7 @@ b {
 .btns {
   width: auto;
   height: 50px;
-  border-radius: 10%;
+  border-radius: 20px;
 }
 
 .bouton {
@@ -10865,49 +10861,83 @@ b {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  border-radius: 20px;
 }
 
 .formulaire {
   margin-top: 50px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .imgblog {
-  height: 60vh;
   padding-top: 50px;
 }
 
 .imgblog1 {
-  height: 70%;
-  width: 70%;
-  border-radius: 5%;
+  height: auto;
+  width: 75%;
+  border-radius: 20px;
   border: #d2d2d2 3px solid;
   position: relative;
 }
 
 .imgblog2 {
-  width: 70%;
-  height: 70%;
+  width: 75%;
+  height: auto;
   border: #d2d2d2 3px solid;
-  border-radius: 5%;
+  border-radius: 20px;
 }
 
 .blogdescri {
   position: absolute;
   z-index: 999;
-  margin-top: 34%;
+  right: 10%;
+  top: 63%;
   padding: 15px 50px;
-  border-radius: 10%;
+  border-radius: 20px;
   font-size: small;
 }
 
 .blogdescri2 {
   position: absolute;
   z-index: 999;
-  margin-top: 34%;
-  margin-left: 7%;
+  top: 63%;
+  left: 11%;
   padding: 15px 50px;
-  border-radius: 10%;
+  border-radius: 20px;
   font-size: small;
+}
+
+.form-control {
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.police {
+  font-size: 50px;
+}
+
+.textblog {
+  width: 100%;
+  margin-left: 35%;
+  width: 60%;
+}
+
+.textblog1 {
+  width: 100%;
+  margin-left: 12%;
+  width: 57%;
+}
+
+.titreblog {
+  font-size: 19px;
+}
+
+.description {
+  font-size: 12px;
 }
 
 #blog {
@@ -10928,9 +10958,10 @@ b {
 
 .contactme {
   width: 40%;
+  margin-top: 4%;
   padding: 10px 10px;
   text-align: center;
-  border-radius: 10%;
+  border-radius: 20px;
 }
 
 .footer {
@@ -10958,13 +10989,13 @@ b {
 }
 
 .imgtest {
-  border-radius: 50%;
+  border-radius: 20px;
   border: grey 4px solid;
 }
 
 .blocktest {
   border: grey 1px solid;
-  border-radius: 5%;
+  border-radius: 20px;
   font-size: small;
 }
 

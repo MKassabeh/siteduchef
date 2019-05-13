@@ -1,113 +1,119 @@
 body{
-   background-image: url(../images/main_bg.jpg)
-}
-.navlink:hover{
-   color:rosybrown !important; 
-}
-.carousel-item{
-   height:100%;
-}
-
-.carousel-caption{
-   margin-bottom: 100px;
-}
-.carousel-indicators > li {
-   border-radius: 50%;
-   height: 10px;
-   width: 10px;
+    background-image: url(../images/main_bg.jpg);
  }
- .navbar-nav>li{
-    border-top: 2px white solid;
-    border-bottom: 2px white solid;
-    color: white;
-    padding: 0 10px;
+ .navlink:hover{
+    color:rosybrown !important; 
+ }
+ .carousel-item{
+    height:100%;
+ }
+ 
+ .carousel-caption{
+    margin-bottom: 100px;
+ }
+ .carousel-indicators > li {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+  }
+  .navbar-nav>li{
+     border-top: 2px white solid;
+     border-bottom: 2px white solid;
+     color: white;
+     padding: 0 10px;
+     
+  }
+  .navbar-nav>li>a{
+     color:white;
+  }
+  .navbar-nav>li>a:hover{
+     background-color: red
+     
     
- }
- .navbar-nav>li>a{
-    color:white;
- }
- .navbar-nav>li>a:hover{
-    background-color: red
-    
-   
- }
- .bold{
-    font-size: larger;
-    
- }
- .logo{
-    margin-left: 6%;
-    margin-right: 5%;
- }
- .item{
-   Position:relative;
-   }
-   .item::after {
-     content:"";
-     display:block;
-     position:absolute;
-     top:0;
-     bottom:0;
-     left:0;
-     right:0;
-     background:rgba(0,0,0,0.6);
-   }
-   .carouseltext{
-      font-size: 37px;
-      width: 54%;
-      font-family: 'Courgette', cursive;
-      
-   }
-   .navss{
-      position: absolute;
-      z-index: 999;
-      width: 100%;
-   }
-   .head{
-      position: relative;
-   }
-   #content {
-      position:relative;
+  }
+  .bold{
+     font-size: larger;
+     
+  }
+  .logo{
+     margin-left: 6%;
+     margin-right: 5%;
+  }
+  .item{
+    Position:relative;
     }
-   
-    
-    .ribbon {
+    .item::after {
+      content:"";
+      display:block;
       position:absolute;
       top:0;
+      bottom:0;
+      left:0;
       right:0;
+      background:rgba(0,0,0,0.6);
     }
-    .container {
-      position: relative;
-    }
-    .topleft {
-      position: absolute;
-      top: 0;
-      left: 0;
-      font-size: 18px;
-    }
-    .section2{
-       margin-top: 30px;
-       background-color: white;
-       width: 80%;
-       padding-bottom: 150px;
-    }
-    .titremenu{
-       padding-top:70px;
+    .carouseltext{
+       font-size: 37px;
+       width: 54%;
        font-family: 'Courgette', cursive;
-    }
-    .our{
-       text-transform: uppercase;
-    }
-    .texte1{
-       width: 35%;
        
     }
-    .titre2{
-       padding-top: 80px;
-       font-family: 'Courgette', cursive;
-      
+    .navss{
+       position: absolute;
+       z-index: 999;
+       width: 100%;
     }
-    .imgmenu{
+    .head{
+       position: relative;
+    }
+    #content {
+       position:relative;
+     }
+    
+     
+     .ribbon {
+       position:absolute;
+       top:0;
+       right:0;
+     }
+     .container {
+       position: relative;
+     }
+     .topleft {
+       position: absolute;
+       top: 0;
+       left: 0;
+       font-size: 18px;
+     }
+     .section2{
+        margin-top: 30px;
+        background-color: white;
+        width: 100%;
+        padding-bottom: 150px;
+     }
+     .titremenu{
+        padding-top:70px;
+        font-family: 'Courgette', cursive;
+     }
+    
+     .texte1{
+        width: 35%;
+        
+     }
+     .titre2{
+        padding-top: 80px;
+        font-family: 'Courgette', cursive;
+       
+     }
+     .imgmenu{
+        height: 50%;
+        border-radius: 50%;
+        width: 90px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 25px;
+     }
+     .imgmenu2{
        height: 50%;
        border-radius: 50%;
        width: 90px;
@@ -115,264 +121,285 @@ body{
        margin-right: 10px;
        margin-left: 25px;
     }
-    .imgmenu2{
-      height: 50%;
-      border-radius: 50%;
-      width: 90px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      margin-left: 25px;
-   }
-
-    .break{
-       font-size: 30px;
-   }
-   .textmenu{
-      font-weight: bold;
-   }
-   .text{
-      width: 210px;
-      font-size: 14px;
-      
-   }
-   .textmeet{
-      font-family: 'Courgette', cursive;
-   }
-    .lignetab{
-       border-bottom: 1px grey dotted
-       
-    }
-    .list1{
-       border-right: 1px solid grey;
-    }
-    .lastlist{
-       height: 130px;
-    }
-    .list2>i:hover{
-      color: red;
-   }
-   div>ul>.list-group-item:first-of-type{
-      border-right: red 2px solid;
-   }
-      .list-group-item:hover{
-      border-right: red 2px solid;
-   }
-    
-    .botright{
-       bottom:0;
-       right: 0px;
-       position: absolute;
-    }
-    .botleft{
-       
-       bottom: 0;
-       left:0;
-       position: absolute;
-    }
-    .section3{
-      background-color:black;
-      padding-bottom: 70px;
-  }
  
-    .chef{
-       border-bottom: 1 px grey;
+     .break{
+        font-size: 30px;
     }
-    .section4{
-       height: max-content;
-       background-color: #fff;
-       margin-top: 50px;
+    .textmenu{
+       font-weight: bold;
     }
-    .titlereservation{
-       padding-top: 75px;
+    .text{
+       width: 210px;
+       font-size: 14px;
+       
     }
-    .imagetable{
-       margin-top: 80px;
-       border-radius: 5%;
-
+    .textmeet{
+       font-family: 'Courgette', cursive;
     }
-   //  Formulaire
-   .bg-img {
-      /* The image used */
-      background-image: url("../images/book_table_bg.jpg");
-    
-      /* Control the height of the image */
-    
-      height: 500px;
-      width: 80%;
-      
-      
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      border-radius: 5%;
+     .lignetab{
+        border-bottom: 1px grey dotted
+        
+     }
+     .list1{
+        border-right: 1px solid grey;
+     }
+     .lastlist{
+        height: 130px;
+     }
+     .list2>i:hover{
+       color: red;
     }
-    
-    /* Add styles to the form container */
-    .containers {
-      position: absolute;
-      right: 0;
-      margin: 20px;
-      max-width: auto;
-      padding: 16px;
-      background-color: transparent;
-      
+    div>ul>.list-group-item:first-of-type{
+       border-right: red 2px solid;
     }
-    
-    /* Full-width input fields */
-      input[type=text], input[type=password] {
-      width: 90%;
-      border-radius: 20%;
-      padding: 15px;
-      height: 15%;
-      margin: 5px 0 22px 0;
-      border: none;
-      background: #f1f1f1;
+       .list-group-item:hover{
+       border-right: red 2px solid;
     }
-    
-    input[type=text]:focus, input[type=password]:focus {
-      background-color: #ddd;
-      outline: none;
-    }
-    
-    /* Set a style for the submit button */
-    .btn {
-      background-color: #4CAF50;
-      color: white;
-      padding: 16px 20px;
-      border: none;
-      cursor: pointer;
-      width: 100%;
-      opacity: 0.9;
-    }
-    
-    .btn:hover {
-      opacity: 1;
-    }
-    .imageform{
-       margin-top: 50px;
-    }
-    .titlereservation{
-      font-family: 'Courgette', cursive;
-    }
-    input{ 
-       width: 50%;
-    }
-    b{
+     
+     .botright{
+        bottom:0;
+        right: 0px;
+        position: absolute;
+     }
+     .botleft{
+        
+        bottom: 0;
+        left:0;
+        position: absolute;
+     }
+     .section3{
+       background-color:black;
+       padding-bottom: 70px;
+   }
+  
+     .chef{
+        border-bottom: 1 px grey;
+     }
+     .section4{
+        height: max-content;
+        background-color: #fff;
+        margin-top: 50px;
+     }
+     .titlereservation{
+        padding-top: 75px;
+     }
+     .imagetable{
+        margin-top: 80px;
+        border-radius: 20px;
+ 
+     }
+    //  Formulaire
+    .bg-img {
+       /* The image used */
+       background-image: url("../images/book_table_bg.jpg");
+     
+       /* Control the height of the image */
+     
+       height: 500px;
+       width: 80%;
+       
+       
+       /* Center and scale the image nicely */
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: relative;
+       border-radius: 20px;
+     }
+     
+     /* Add styles to the form container */
+     .containers {
+       position: absolute;
+       right: 0;
+       margin: 20px;
+       max-width: auto;
+       padding: 16px;
+       background-color: transparent;
+       
+     }
+     
+     /* Full-width input fields */
+       input[type=text], input[type=password] {
+       width: 90%;
+       border-radius: 20px;
+       padding: 15px;
+       height: 15%;
+       margin: 5px 0 22px 0;
+       border: none;
+       background: #f1f1f1;
+     }
+     
+     input[type=text]:focus, input[type=password]:focus {
+       background-color: #ddd;
+       outline: none;
+     }
+     
+     /* Set a style for the submit button */
+     .btn {
+       background-color: #4CAF50;
        color: white;
-    }
-    .btns{
-       width: auto;
-       height: 50px;
-       border-radius: 10%;
-    }
-    .bouton{
+       padding: 16px 20px;
+       border: none;
+       cursor: pointer;
+       width: 100%;
+       opacity: 0.9;
+     }
+     
+     .btn:hover {
+       opacity: 1;
+     }
+     .imageform{
+        margin-top: 50px;
+     }
+     .titlereservation{
+       font-family: 'Courgette', cursive;
+     }
+     input{ 
+        width: 50%;
+     }
+     b{
+        color: white;
+     }
+     .btns{
+        width: auto;
+        height: 50px;
+        border-radius: 20px;
+     }
+     .bouton{
+        height: max-content;
+        width: max-content;
+        border-radius:20px;
+     }
+    .formulaire{
+       margin-top: 50px;
        height: max-content;
-       width: max-content;
     }
-   .formulaire{
-      margin-top: 50px;
-   }
-   .imgblog{
-      height: 60vh;
-      padding-top: 50px;
-   }
-      .imgblog1 {
-         height: 70%;
-         width: 70%;
-         border-radius: 5%;
-         border:rgb(210,210,210) 3px solid;
-         position: relative;
-      }
-      .imgblog2{
-         width: 70%;
-         height: 70%;
-         border:rgb(210,210,210) 3px solid;
-         border-radius: 5%;
-      }
-      .blogdescri{
-         position: absolute;
-         z-index: 999;
-      
-         margin-top:34%;
-         padding: 15px 50px;
-         border-radius: 10%;
-         font-size:small;
+    .imgblog{
+       
+       padding-top: 50px;
+    }
+       .imgblog1 {
+          height: auto;
+          width: 75%;
+          border-radius: 20px;
+          border:rgb(210,210,210) 3px solid;
+          position: relative;
+       }
+       .imgblog2{
+          width: 75%;
+          height: auto;
+          border:rgb(210,210,210) 3px solid;
+          border-radius: 20px;
+       }
+       .blogdescri{
+          position: absolute;
+          z-index: 999;
+         right: 10%;
+          top:63%;
+          padding: 15px 50px;
+          border-radius: 20px;
+          font-size:small;
+          
+       }
+       .blogdescri2{
+          position: absolute;
+          z-index: 999;
+          top: 63%;
+          left: 11%;
+          padding: 15px 50px;
+          border-radius: 20px;
+          font-size:small;
+          
+       }
+       .form-control{
+          border-radius: 20px;
+          width: 90%;
+          margin-left: 5%;
+
+       }
+       .police{
+          font-size: 50px;
+       }
+       .textblog{
+          width: 100%;
+          margin-left: 35%;
+          width: 60%;
+       }
+       .textblog1{
+         width: 100%;
+         margin-left: 12%;
+         width: 57%;
          
       }
-      .blogdescri2{
-         position: absolute;
-         z-index: 999;
-         margin-top: 34%;
-         margin-left: 7%;
-         padding: 15px 50px;
-         border-radius: 10%;
-         font-size:small;
-         
-      }
-      #blog{
-         font-weight: bold;
-         font-size: larger
-      }
-.section5{
-   height: max-content;
-   background-image: url(../images/testimonials_background.jpg);
-   text-align: center;
-   color:white;
-   padding-top: 30px;
-   padding-bottom: 50px;
+       .titreblog{
+          font-size: 19px;
+       }
+       .description{
+          font-size: 12px;
+       }
+       #blog{
+          font-weight: bold;
+          font-size: larger
+       }
+ .section5{
+    height: max-content;
+    background-image: url(../images/testimonials_background.jpg);
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+ 
+ }
 
-}
-.contactme{
-width: 40%;
-
-padding: 10px 10px;
-text-align: center;
-border-radius: 10%;
-
-}
-.footer{
-   background-color: black;
-   height: 100vh;
-}
-
-/* Place the navbar at the bottom of the page, and make it stick */
-
- .nav-link{
-     margin:0 auto;
-
+ .contactme{
+ width: 40%;
+ margin-top: 4%;
+ 
+ padding: 10px 10px;
+ text-align: center;
+ border-radius: 20px;
+ 
+ }
+ .footer{
+    background-color: black;
+    height: 100vh;
  }
  
- .lien:hover{
-       color:rosybrown !important;
-   }
-   .footerbas{
-      padding: 30px 0;
-      margin-top: 30px;
-   }
-   .contact{
-      margin-bottom: 100px;
-      margin-top:100px;
-   }
-   .imgtest{
-      border-radius: 50%;
-      border:grey 4px solid;
-   }
-   .blocktest{
-      border:grey 1px solid;
-      border-radius: 5%;
-      font-size: small;
-     
-   }
-   .footerfin{
-      background-image: url(../images/footer_background.jpg);
-      
-      padding-top: 23px;
-   }
-   .tags{
-      width: max-content;
-      border: white 2px solid;
-   }
-      
+ /* Place the navbar at the bottom of the page, and make it stick */
+ 
+  .nav-link{
+      margin:0 auto;
+ 
+  }
   
+  .lien:hover{
+        color:rosybrown !important;
+    }
+    .footerbas{
+       padding: 30px 0;
+       margin-top: 30px;
+    }
+    .contact{
+       margin-bottom: 100px;
+       margin-top:100px;
+    }
+    .imgtest{
+       border-radius: 20px;
+       border:grey 4px solid;
+    }
+    .blocktest{
+       border:grey 1px solid;
+       border-radius: 20px;
+       font-size: small;
+      
+    }
+    .footerfin{
+       background-image: url(../images/footer_background.jpg);
+       
+       padding-top: 23px;
+    }
+    .tags{
+       width: max-content;
+       border: white 2px solid;
+    }
+       
