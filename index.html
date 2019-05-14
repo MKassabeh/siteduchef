@@ -9,59 +9,144 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
+<!-- Début header -->
 <header class="head">
+  <!-- Début navbar -->
     <div class="navss">
+      
        
-      <nav class="navbar navbar-expand-md justify-content-center">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-default d-xs-none d-sm-none d-md-none d-lg-block">
         
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="container">
+       
 
-          <ul class="navbar-nav">
-            <li class="nav-item bg-danger disabled">
-              <a class="nav-link" href="#">Home</a>
+        <div class="row">
+          <!-- Partie gauche du logo -->
+          <ul class="ul1 navbar-nav col-12 col-md-5">
+            <li class="nav-item p-0">
+              <a class="li1 nav-link text-white text-center" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link text-white text-center" href="#">About us</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Menu list</a>
+                  <a class="nav-link text-white text-center" href="#">Menu list</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link text-white text-center" href="#">Team</a>
                 </li>
           </ul>
-              <a  class=" logo navbar-brand"><img src="./assets/images/logo.png"  alt=""></a>
-              <ul class="navbar-nav">
+        <!-- Logo -->
+        <div class="logo col-12 col-lg-2">  
+              <img class="img-fluid logo" src="./assets/images/logo.png"  alt="">
+        </div>
+        <!-- Partie droite du logo -->
+              <ul class="ul2 navbar-nav col-12 col-md-5">
+             
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Reservation</a>
+                    <a class="nav-link firstlink text-white text-center" href="#">Reservation</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Blog</a>
+                      <a class="nav-link text-white text-center" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link text-white text-center" href="#">Testimonials</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Contact us</a>
+                          <a class="nav-link text-white text-center" href="#">Contact us</a>
                       </li>
                 </ul>
+        </div>
+              </div>
+            </div>
+        </nav> 
+    </div>
+    <!-- Fin navbar -->
+    <div class="navss">
+        <!-- Navbar responsive -->
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-xs-block d-sm-block d-md-block d-lg-none">     
+               
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="container">
+                    <div class="row">
+                        
+
+
+                        <ul class="navbar-nav mr-auto col-12 col-lg-5">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white text-center" href="#">HOME<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="#">MENU LIST</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="#">TEAM</a>
+                            </li>
+                        </ul>
+                        
+
+
+                        <div class="logo col-12 col-lg-2">            
+                            <img class="img-fluid" src="./assets/images/logo.png" alt="">
+                        </div>
+                     
+
+
+                        <ul class="navbar-nav mr-auto col-12 col-lg-5">
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="#">RESERVATION<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="#">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link text-white text-center" href="#">TESTIMONIALS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-center" href="#">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
-      </div>
+    </div>
+    <!-- Fin navbar -->
+    <!-- Début Carousel -->
+    <div class="text-head d-none d-lg-block">
+        <p class="textcarou">Whatever your <span class="spancarou">OCCASION, &nbsp;</span><span class="spancaroured"> TASTE</span><span class="spancarou"> makes </span>it one <br> to <span class="spancarou">remember!</span></p>
+        <div class="row">
+            <div class="col-6 d-flex justify-content-end">
+                <button type="button" class="btn btn1 bg-white text-dark">PURCHASE THEME</button>
+            </div>
+            <div class="col-6 ">
+                <button type="button" class="btn btn2">LEARN MORE</button>
+            </div>
+        </div>
+    </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li  data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li  data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li  data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
         <div class="carousel-inner">
           <div class="item active">
             <img src="./assets/images/banner1.jpg" class="slide w-100" alt="...">
-            <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
-              <p class="carouseltext ">Whatever your <span class="bold">OCCASION, <span class="text-danger">TASTE</span> makes</span> it one to <span class="bold">remember!</span> </p>
-              <div class="d-flex">
-              <button type="button" class="bouton btn btn-white bg-white text-dark btn-sm ">Purchase theme</button>
-              <button type="button" class="bouton ml-3 btn btn-danger bg-danger text-white btn-sm ">Learn more</button>
-            </div>
-          </div>
         </div>
         <div class="carousel-item">
             <img src="./assets/images/menu_image_2.jpg" class="slide d-block w-100" alt="...">
@@ -87,11 +172,13 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <section class="container">
-  </section>  
+    <!-- Fin carousel -->
+    <!-- Décoration bas carousel -->
+  <div class="bascarou"></div>  
+  <!-- Fin du header -->
 </header>
-  
   <section class=" section2 container">
+    
   
           <img src="./assets/images/box-right-top.png" class="ribbon"/>
 
@@ -101,105 +188,107 @@
           
         
         <div class="d-flex flex-column align-items-center">
-        <h1 class="text-center titremenu"><span class="police text-danger ">OUR</span> Story</h1>
-        <img src="./assets/images/decoration_line.png" alt="">
+        <h1 class="text-center titremenu"><span class="police">OUR</span> Story</h1>
+        <img class="mt-0" src="./assets/images/decoration_line.png" alt="">
         <p class="text-center texte1 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, laudantium! Sapiente nemo dicta tempore? Explicabo sequi nihil recusandae alias labore deleniti laboriosam soluta eveniet minus temporibus, ullam doloremque nesciunt maxime!</p>
       </div>
       <div class=" d-flex flex-column align-items-center">
-        <h1 class="titre2"> <span class="text-danger police"> OUR</span> Menu List</h1>
+        <h1 class="titre2"> <span class="police"> OUR</span> Menu List</h1>
         <img src="./assets/images/decoration_line.png" alt="">
       </div>
       <div class="row mt-5">
-        <div class="col-md-2">
+        <div class="col-md-3">
             <ul class="list1 list-group mt-2 list-group-flush text-center">
-                <li class="list2 list-group-item"><i class=" ml-3 mb-3 fas fa-mug-hot fa-3x text-danger"></i>
-                <h5>Breakfast</h5>
+                <li class="list2 list-group-item"><i class="premier ml-3 mb-3 fas fa-mug-hot fa-3x"></i>
+                <h5 class="courg">Breakfast</h5>
               </li>
                 <li class="list2 list-group-item"><i class="fas fa-hamburger fa-3x"></i>
                 <p>
-                  <h5>Lunch</h5>
+                  <h5 class="courg">Lunch</h5>
                 </p>
               </li>
                 <li class="list2 list-group-item"><i class="fas fa-utensils fa-3x"></i>
-                  <h5>
+                  <h5 class="courg">
                     Snacks
                   </h5>
                 </li>
                 <li class="list2 list-group-item"><i class="fas fa-mug-hot fa-3x"></i>
-                <h5>
+                <h5 class="courg">
                   Dinner
                 </h5>
                 </li>
                 <li class="list-group-item lastlist"></li>
               </ul>
         </div>
-        <div class=" col-12 col-md-5">
-
-        <div>
+        
+        <div class=" mt-4 col-12 col-md-9">
+          <div class="row">
+        <div class="col-md-6 col-12">
           <table>
             <tr>
                 <td class="lignetab"><img class="imgmenu" src="./assets/images/menu_image_1.jpg" alt=""></td>
                 <td class="lignetab text"><p class=" mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we share out</p></td>
-                <td class="lignetab pr-3 pl-3 text-danger">$25</td>
+                <td class="lignetab "><p class="prix">$25</p></td>
               </tr>
               <tr>
                   <td class="lignetab"><img class="imgmenu" src="./assets/images/menu_image_1.jpg" alt=""></td>
                   <td class="lignetab text"><p class=" mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we share out</p></td>
-                  <td class="lignetab pr-3 pl-3 text-danger">$25</td>
+                  <td class="lignetab "><p class="prix">$25</p></td>
                 </tr>
                 <tr>
                     <td class="lignetab"><img class="imgmenu" src="./assets/images/menu_image_1.jpg" alt=""></td>
                     <td class="lignetab text"><p class=" mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we share out</p></td>
-                    <td class="lignetab pr-3 pl-3 text-danger">$25</td>
+                    <td class="lignetab"><p class="prix">$25</p></td>
                   </tr>
                   <tr>
                       <td class="lignetab"><img class="imgmenu" src="./assets/images/menu_image_1.jpg" alt=""></td>
                       <td class="lignetab text"><p class=" mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we share out</p></td>
-                      <td class="lignetab pr-3 pl-3 text-danger">$25</td>
+                      <td class="lignetab"><p class="prix">$25</p></td>
                     </tr>
                     <tr>
                         <td class="lignetab"><img class="imgmenu" src="./assets/images/menu_image_1.jpg" alt=""></td>
                         <td class="lignetab text"><p class=" mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we share out</p></td>
-                        <td class="lignetab pr-3 pl-3 text-danger">$25</td>
+                        <td class="lignetab prix"><p class="prix">$25</p></td>
                       </tr>
 
          </table>
         </div>
-            </div>
-            <div class=" col-12 col-md-5">
-              <div>
+            
+            <div class=" col-12 col-md-6">
+              
               <table class="mb-5">
                 <tr>
                     <td class="lignetab"><img class="imgmenu2 " src="./assets/images/menu_image_1.jpg" alt=""></td>
                     <td class="lignetab text"><p class=" mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we try to share out</p></td>
-                    <td class="lignetab pr-3 pl-3 text-danger">$25</td>
+                    <td class="lignetab"><p class="prix">$35</p></td>
                 </tr>
                 <tr>
                     <td class="lignetab"><img class="imgmenu2 " src="./assets/images/menu_image_1.jpg" alt=""></td>
                     <td class="lignetab text"><p class=" mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we try to share out</p></td>
-                    <td class="lignetab pr-3 pl-3 text-danger">25$</td>
+                    <td class="lignetab"><p class="prix">$35</p></td>
                 </tr>
                 <tr>
                     <td class="lignetab"><img class="imgmenu2 " src="./assets/images/menu_image_1.jpg" alt=""></td>
                     <td class="lignetab text"><p class=" mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we try to share out</p></td>
-                    <td class="lignetab pr-3 pl-3 text-danger">$25</td>
+                    <td class="lignetab prix"><p class="prix">$35</p></td>
                 </tr>
                 <tr>
                   <td class="lignetab"><img class="imgmenu2 " src="./assets/images/menu_image_1.jpg" alt=""></td>
                   <td class="lignetab text"><p class=" mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we try to share out</p></td>
-                  <td class="lignetab pr-3 pl-3 text-danger">$25</td>
+                  <td class="lignetab"><p class="prix">$35</p></td>
                 </tr>
                 <tr>
                     <td class="lignetab"><img class="imgmenu2 " src="./assets/images/menu_image_1.jpg" alt=""></td>
                     <td class="lignetab text"><p class="  mt-4"><h6 class="textmenu">Deer steack with potatoes</h6> Welcome to Rissoto restaurant website. Here we try to share out</p></td>
-                    <td class="lignetab pr-3 pl-3 text-danger">$25</td>
+                    <td class="lignetab"><p class="prix">$35</p></td>
                 </tr>
               </table>
             </div>
           </div>
           </div>
+          </div>
         </div>
-     
+     </div>
         <img src="./assets/images/box-bottom-left.png" class="botleft"/>
 
       
@@ -210,7 +299,7 @@
       <section class="section3 mt-5">
         <div class="container">
           <div class="text-center">
-        <h1 class="textmeet text-white pt-5 "> <span class="text-danger police">MEET </span>our Chef</h1>
+        <h1 class="textmeet text-white pt-5 "> <span class="police">MEET </span>our Chef</h1>
         <img src="./assets/images/decoration_line.png" class="pb-5" alt=""></div>
         <div class="row">
           <div class="col-md-3 col-12">
@@ -237,98 +326,107 @@
       <img class="topleft" src="./assets/images/box-left-top-grey.png" alt="">
       <img class="ribbon" src="./assets/images/box-right-top-grey.png" alt="">
       <div class="d-flex flex-column align-items-center">
-      <h1 class=" titlereservation "><span class="text-danger police">BOOK</span> your table</h1>
+      <h1 class=" titlereservation "><span class="police">BOOK</span> your table</h1>
       <img src="./assets/images/decoration_line.png" alt="">
     </div>
     <div class="container d-flex justify-content-center imageform">
     <div class="bg-img text-center">
-        <form action="/action_page.php" class="container containers">
-          <h5 class="text-white">For any query please call us at :+91.1234567890</h5>
+        <form action="/action_page.php" class="container containers p-0">
+          <h5 class="text-white mt-5 col-12">For any query please call us at :+91.1234567890</h5>
           <div class="container">
       <div class="formulaire row justify-content-center text-center">
-        <div class=" col-lg-5 col-12">
+        <div class=" col-lg-5 col-6 pr-0">
           
-          <input type="text" class="bg-white" placeholder="Enter full name" name="email" required>
-          <input type="password" class="bg-white formul" placeholder="Phone number" name="psw" required>
-          <input type="text" class="bg-white formul" placeholder="Date" name="email" required>
-          <select class="bg-white form-control">
+          <input type="text" class="bg-white  m-2" placeholder="Enter full name" name="email" required>
+          <input type="password" class="bg-white m-2" placeholder="Phone number" name="psw" required>
+          <input type="text" class="bg-white m-2" placeholder="Date" name="email" required>
+          <select class="bg-white form-control mt-2">
               <option>Occasion</option>
             </select>
         </div>
         
-        <div class=" col-lg-5 col-12">
-            <input type="text" placeholder="Enter Id" class="bg-white text-black" name="email" required>
-            <select class="bg-white text-black mt-2 form-control">
+        <div class=" col-lg-5 col-6 pl-0">
+            <input type="text" placeholder="Enter Id" class="bg-white text-black m-2" name="email" required>
+            <select class="bg-white text-black form-control mt-2">
                 <option>No o person</option>
               </select>
-            <input type="text" class="bg-white text-black mt-4 formul" placeholder="Time" name="email" required>
-            <select class="bg-white mt-1 form-control text-black">
+            <input type="text" class="bg-white text-black m-3" placeholder="Time" name="email" required>
+            <select class="bg-white form-control text-black mb-1">
                 <option>Cuisine</option>
               </select>
           </div>
           </div>
           </div>
       
-          <button type="submit" class="btn btns bg-danger">Book now</button>
+          <button type="submit" class="btn btnss ">Book now</button>
         </form>
       </div>
       </div>
     </div>
     <div class="text-center pt-5">
       <h1 class="textmeet">
-          <span class="text-danger police">OUR</span> blog
+          <span class="police">OUR</span> blog
+          
       </h1>
-      <img src="./assets/images/decoration_line.png" alt="">
+      <img class="pb-5" src="./assets/images/decoration_line.png" alt="">
     </div>
-    <div class="row d-flex imgblog">
+    <div class="row d-flex imgblog mb-4">
         <div class=" col-md-6 col-12 d-flex flex-wrap justify-content-end mb-0">
         <img class="imgblog1" src="./assets/images/blog_img1.jpg" alt="">
-        <p class="blogdescri bg-danger text-white"><span id="blog">24 </span>April 2017/<span id="blog">20 </span>Comment/<span id="blog">20</span> likes</p>
-        <div  class="textblog mt-4 container d-flex flex-column align-content-end">
-            
-                <h4 class='titreblog'>Lorem delmar</h4>
-                <p class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non temporibus consequuntur quos id rerum.
-              </p>
-          </div> 
-         </div>
+        <p class="blogdescri text-white"><span id="blog">24 </span>April 2017 <span class="blogsla">/</span><span id="blog">20 </span>Comment <span class="blogsla">/</span> <span id="blog">20</span> likes</p>
+        </div>
+       
+         
         <div class="col-md-6 col-12 d-flex flex-wrap ">
         <img class="imgblog2" src="./assets/images/blog_img2.jpg" alt=""> 
-        <p class="blogdescri2 bg-danger text-white"><span id="blog">24 </span>April 2017/<span id="blog">20 </span>Comment/<span id="blog">20</span> likes</p>
-        <div class="textblog1 mt-3">
+        <p class="blogdescri2 text-white"><span id="blog">24 </span>April 2017 <span class="blogsla">/</span><span id="blog">20 </span>Comment <span class="blogsla">/</span> <span id="blog">20</span> likes</p>
+        </div>
+      </div>
+      <div class="row d-flex container ">
+          <div  class="textblog col-md-5 col-12">
+            
+              <h4 class='titreblog'>Lorem delmar</h4>
+              <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non temporibus consequuntur quos id rerum.
+            </p>
+        </div> 
+        <div class="textblog1 col-md-5 col-12 ">
     <h4 class='titreblog'>Lorem delmar</h4>
     <p class="description" >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Non temporibus consequuntur quos id rerum.
     </p>
-        </div>
+        
     </div>
     </div>
 <div class="text-center">
-<button type="submit" class="mt-5 text-center  btn btns bg-danger">Book now</button>
- </div> 
+<button type="submit" class="mt-5 text-center  btn btns">Know more</button>
+</div>
+  <img class="botleft" src="./assets/images/box-bottom-left-grey.png" alt="">
+  <img class="botright"src="./assets/images/box-bottom_right-grey.png" alt="">
 </section>
   <section class="section5">
     <h1 class="textmeet">
         <span class="text-danger police">CLIENT</span> Testemonial
     </h1>
-    <img src="./assets/images/decoration_line.png" alt="">
-    <div class="container">
+    <img  src="./assets/images/decoration_line.png" alt="">
+    <div class="container testi">
       <div class="row d-flex  align-items-center ">
-      <div class="col-lg-3 col-12"><img class="imgtest" src="./assets/images/testimonial1.jpg" alt=""></div>
-      <div class="col-lg-3 col-12">
+      <div class="col-lg-2 col-12"><img class="imgtest" src="./assets/images/testimonial1.jpg" alt=""></div>
+      <div class="col-lg-4 col-12">
       <div class="pl-3 text-left blocktest"><h4>Lorem Ipsu</h4><h6 class="text-danger">Manager</h6> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Consector mani mano salut </p></div>
       </div>  
-      <div class="col-lg-3 col-12">
+      <div class="col-lg-4 col-12">
       <div class="text-left pl-3 blocktest"><h4>Lorem Ipsu</h4><h6 class="text-danger">Manager</h6> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Consector mani mano salut </p></div>
       </div>
-      <div class="col-lg-3 col-12"> <img class="imgtest" src="./assets/images/testimonial1.jpg" alt=""></div>
+      <div class="col-lg-2 col-12"> <img class="imgtest" src="./assets/images/testimonial1.jpg" alt=""></div>
     </div>
     </div>
   </section>
   <section class="contact container d-flex flex-column align-items-center">
-    <h1 class="text-center textmeet"><span class="text-danger">OUR</span> Contact</h1>
-    <img src="./assets/images/decoration_line.png" alt="">
-      <div class="contactme bg-danger d-flex flex-column alin-c">
+    <h1 class="text-center textmeet"><span class="text-danger">OUR</span> Contact
+    </h1>
+    <img src="./assets/images/decoration_line.png"  alt="">
+      <div class="contactme bg-danger d-flex flex-column pl-2 pr-2 pt-4">
           <ul class="list-unstyled mb-0">
               <li><i class=" text-white fas fa-map-marker-alt fa-3x"></i>
                   <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquid iusto nemo sed eveniet placeat, amet!</p>
@@ -348,55 +446,58 @@
   </div>
 
 </section>
+
 <footer class="footerfin">
+  <div class="hautfooter"></div>
 <section class="container">
+  
   <div class="row">
-    <div class="col-lg-4 col-4 mt-2 text-white">
-      <h4>About us</h4>
+    <div class="col-lg-4 col-12 mt-5 text-white">
+      <h4>ABOUT US</h4>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non impedit unde totam sapiente soluta quae, magnam pariatur! Autem velit cupiditate tempora! Dolore consequuntur doloremque dolores, culpa quia temporibus impedit ullam.
+        Lorem ipsum dolor sit amet consectetur adipis elit. Non impedit unde totam sapiente soluta quae, magnam pariatur! Autem velit cupiditate tempora! Dolore consequuntur doloremque dolores.
       </p>
       <div class=" d-flex">
           <i class="fab fa-facebook-f fa-2x text-white"></i>
-          <i class="fab fa-instagram fa-2x ml-4 text-white"></i>
-          <i class="fab fa-twitter fa-2x ml-4 text-white"></i>
+          <i class="fab fa-google-plus-g fa-2x ml-4 text-white"></i>
+          <i class="fab fa-pinterest-p fa-2x ml-4 text-white"></i>
           <i class="fab fa-linkedin-in fa-2x ml-4 text-white"></i>
       
     </div>
   </div>
-    <div class="col-6 col-lg-4">
-      <h3 class="mb-4 text-white">Instagram</h3>
+    <div class="col-12 col-lg-4 mt-5">
+      <h3 class="mb-3 text-white">INSTAGRAM</h3>
       <div class="row">
-        <div class="col-lg-3 col-12">
+        <div class="col-2">
           <img src="./assets/images/instragram_gallery_img1.jpg" alt="">
         </div>
-        <div class="col-lg-3 col-12">
+        <div class="col-2 ml-4">
             <img src="./assets/images/instragram_gallery_img2.jpg" alt="">
           </div>
-          <div class="col-lg-3 col-12">
+          <div class="col-2 ml-4">
               <img src="./assets/images/instragram_gallery_img1.jpg" alt="">
             </div>
-            <div class="col-lg-3 col-12">
+            <div class="col-2 ml-4">
                 <img src="./assets/images/instragram_gallery_img2.jpg" alt="">
               </div>
       </div>
-      <div class="row mt-3">
-          <div class="col-lg-3 col-12">
+      <div class="row mt-2">
+          <div class="col-2">
             <img src="./assets/images/instragram_gallery_img2.jpg" alt="">
           </div>
-          <div class="col-lg-3 col-12">
+          <div class="col-2 ml-4">
               <img src="./assets/images/instragram_gallery_img1.jpg" alt="">
             </div>
-            <div class="col-lg-3 col-12">
+            <div class="col-2 ml-4">
                 <img src="./assets/images/instragram_gallery_img2.jpg" alt="">
               </div>
-              <div class="col-lg-3 col-12">
+              <div class="col-2 ml-4">
                   <img src="./assets/images/instragram_gallery_img1.jpg" alt="">
                 </div>
         </div>
     </div>
-    <div class="col-lg-4 col-12">
-      <h4 class="text-white">Popular Tag</h4>
+    <div class="col-lg-4 col-12 mt-5">
+      <h4 class="text-white">POPULAR TAG</h4>
       <div class="mt-4">
           <span class=" tags text-center badge badge-pill badge-danger">Restaurant</span>
           <span class=" tags text-center badge badge-pill badge-danger">Responsive Design</span>
