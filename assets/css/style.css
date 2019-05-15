@@ -10575,25 +10575,22 @@ header .navss {
   width: 100%;
 }
 
-header .navss li {
-  width: 60%;
-  padding: 3px 0px;
-}
-
 header .ul1 {
-  border-bottom: solid 1px white;
-  border-top: solid 1px white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   max-height: -webkit-max-content;
   max-height: -moz-max-content;
   max-height: max-content;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
   margin-top: 4%;
   padding-left: 0;
   padding-right: 0;
+  border-bottom: solid 1px white;
+  border-top: solid 1px white;
+}
+
+header .ul1 li {
+  padding: 5px 15px;
 }
 
 header .logo {
@@ -10608,22 +10605,23 @@ header .logo {
 header .ul2 {
   border-bottom: solid 1px white;
   border-top: solid 1px white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   max-height: -webkit-max-content;
   max-height: -moz-max-content;
   max-height: max-content;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
   margin-top: 4%;
   padding-left: 0;
   padding-right: 0;
 }
 
-.li1 {
+header .ul2 li {
+  padding: 5px 15px;
+}
+
+.active {
   background-color: red;
-  background-size: cover;
 }
 
 .carousel-item {
@@ -10795,9 +10793,9 @@ div > div > .btn {
 }
 
 .imgmenu2 {
-  height: 45%;
+  height: 50%;
   border-radius: 50%;
-  width: 90%;
+  width: 80%;
   margin-bottom: 10px;
   margin-right: 10px;
   border: grey 2px solid;
@@ -10821,6 +10819,14 @@ div > div > .btn {
   margin-bottom: 0px;
   z-index: 999;
   position: relative;
+}
+
+.manag {
+  color: red;
+}
+
+.textmeet > span {
+  color: red;
 }
 
 .imgtest {
@@ -11145,6 +11151,7 @@ input {
 .contactme {
   width: 40%;
   margin-top: 4%;
+  background-color: red;
   padding: 10px 10px;
   text-align: center;
   border-radius: 10px;
@@ -11162,6 +11169,7 @@ input {
 .footerbas {
   padding: 30px 0;
   margin-top: 80px;
+  background-color: red;
 }
 
 .contact {
@@ -11203,6 +11211,8 @@ input {
   width: max-content;
   border: white 1px solid;
   padding: 10px 10px;
+  background-color: red;
+  color: white;
 }
 
 .tags:hover {

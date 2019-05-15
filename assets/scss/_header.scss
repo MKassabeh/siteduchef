@@ -7,20 +7,20 @@ position: relative;
             position: absolute;
             z-index: 999;
             width: 100%;
-         li{
-            width: 60%;
-            padding: 3px 0px;
-            }
+         
       }
       .ul1{
-         border-bottom: solid 1px white;
-         border-top: solid 1px white; 
-         display: flex;
-         justify-content: space-around;
+     
          max-height: max-content;
+         max-width: max-content;
          margin-top: 4%;
          padding-left: 0;
          padding-right: 0 ;
+         border-bottom: solid 1px white;
+         border-top: solid 1px white; 
+         li{
+            padding: 5px 15px;
+         }
          }
          .logo{
             display: flex;
@@ -29,17 +29,23 @@ position: relative;
          .ul2{
             border-bottom: solid 1px white;
             border-top: solid 1px white; 
-            display: flex;
-            justify-content: space-around;
+           
             max-height: max-content;
+            max-width: max-content;
             margin-top: 4%;
             padding-left: 0;
             padding-right: 0 ;
+            li{
+               padding: 5px 15px;
+            }
+            
          }
-}
-.li1{
+
+
+      }
+
+.active{
    background-color: red;
-   background-size: cover;
 }
 .carousel-item{
 height:100%;
@@ -192,9 +198,9 @@ margin-right: 10px;
 border:grey 2px solid;
 }
 .imgmenu2{
-   height: 45%;
+   height: 50%;
    border-radius: 50%;
-   width: 90%;
+   width: 80%;
    margin-bottom: 10px;
    margin-right: 10px;
    border:grey 2px solid;
@@ -217,6 +223,13 @@ font-family: 'Courgette', cursive;
 margin-bottom: 0px;
 z-index: 999;
 position: relative;
+
+}
+.manag{
+   color:red;
+}
+.textmeet>span{
+   color:red;
 }
 .imgtest{
    position: relative;
@@ -507,6 +520,7 @@ width: 100%;
 .contactme{
 width: 40%;
 margin-top: 4%;
+background-color: red;
 
 padding: 10px 10px;
 text-align: center;
@@ -527,7 +541,9 @@ margin:0 auto;
 .footerbas{
 padding: 30px 0;
 margin-top: 80px;
+background-color: red;
 }
+
 .contact{
 margin-bottom: 100px;
 margin-top:100px;
@@ -562,6 +578,8 @@ padding-top: 20px;
 width: max-content;
 border: white 1px solid;
 padding: 10px 10px;
+background-color: red;
+color:white;
 }
 .tags:hover{
 background-color: black;
