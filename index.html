@@ -140,23 +140,23 @@
     </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li  data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li  data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><div class="indic"></div></li>
             <li  data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li  data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
         <div class="carousel-inner">
-          <div class="item active">
-            <img src="./assets/images/banner1.jpg" class="slide w-100" alt="...">
+          <div class="carousel-item active">
+            <img src="./assets/images/banner1.jpg" class="d-block  w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="./assets/images/menu_image_2.jpg" class="slide d-block w-100" alt="...">
+            <img src="./assets/images/menu_image_2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption">
               <h5 class="animated fadeInDown">Third slide label</h5>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./assets/images/main_bg.jpg" class="slide d-block w-100" alt="...">
+            <img src="./assets/images/main_bg.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption">
               <h5 class="animated fadeInDown">Third label</h5>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -192,6 +192,7 @@
         <img class="mt-0" src="./assets/images/decoration_line.png" alt="">
         <p class="text-center texte1 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, laudantium! Sapiente nemo dicta tempore? Explicabo sequi nihil recusandae alias labore deleniti laboriosam soluta eveniet minus temporibus, ullam doloremque nesciunt maxime!</p>
       </div>
+      <!-- Debut la liste des repas -->
       <div class=" d-flex flex-column align-items-center">
         <h1 class="titre2"> <span class="police"> OUR</span> Menu List</h1>
         <img src="./assets/images/decoration_line.png" alt="">
@@ -217,10 +218,10 @@
                   Dinner
                 </h5>
                 </li>
-                <li class="list-group-item lastlist"></li>
+                <li class="list-group-item lastlist disabled"></li>
               </ul>
         </div>
-        
+        <!-- Fin de la liste et début du menu -->
         <div class=" mt-4 col-12 col-md-9">
           <div class="row">
         <div class="col-md-6 col-12">
@@ -289,6 +290,8 @@
           </div>
         </div>
      </div>
+     <!-- Fin du menu  
+          Image placé dans les coins            -->
         <img src="./assets/images/box-bottom-left.png" class="botleft"/>
 
       
@@ -296,6 +299,7 @@
         <img class="botright" src="./assets/images/box-bottom_right.png" alt="">
       </div>
       </section>
+      <!-- Liste des chefs -->
       <section class="section3 mt-5">
         <div class="container">
           <div class="text-center">
@@ -321,7 +325,8 @@
           </div>
         </div> 
     </section>
-    <!--  -->
+    <!--Fin de la liste des chefs
+        Début de la section réservation -->
     <section class="section4 container pb-5">
       <img class="topleft" src="./assets/images/box-left-top-grey.png" alt="">
       <img class="ribbon" src="./assets/images/box-right-top-grey.png" alt="">
@@ -332,7 +337,7 @@
     <div class="container d-flex justify-content-center imageform">
     <div class="bg-img text-center">
         <form action="/action_page.php" class="container containers p-0">
-          <h5 class="text-white mt-5 col-12">For any query please call us at :+91.1234567890</h5>
+          <h5 class="text-white mt-5 col-12">For any query please call us at : <span class="numero"> +91.1234567890</span></h5>
           <div class="container">
       <div class="formulaire row justify-content-center text-center">
         <div class=" col-lg-5 col-6 pr-0">
@@ -363,6 +368,7 @@
       </div>
       </div>
     </div>
+    <!-- Début dublog -->
     <div class="text-center pt-5">
       <h1 class="textmeet">
           <span class="police">OUR</span> blog
